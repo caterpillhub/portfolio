@@ -15,7 +15,6 @@ Built with cutting-edge technologies for optimal performance:
 - ⚛️ **React** - Modern UI library
 - 🎨 **Tailwind CSS** - Utility-first styling
 - 🧩 **shadcn/ui** - Beautiful, accessible components
-- 💝 **Lovable** - AI-powered development platform
 
 ## 🌟 Features
 
@@ -35,10 +34,10 @@ Built with cutting-edge technologies for optimal performance:
 
 ```bash
 # 📥 Clone the repository
-git clone https://github.com/caterpillhub/my-portfolio-mskavin.git
+git clone https://github.com/caterpillhub/portfolio.git
 
 # 📂 Navigate to project directory
-cd my-portfolio-mskavin
+cd portfolio
 
 # 📦 Install dependencies
 npm install
@@ -63,7 +62,7 @@ Launch a complete development environment in your browser with zero setup.
 - 💼 **LinkedIn**: [Kavin Rrahul](https://www.linkedin.com/in/kavin-rrahul-3710b4261/)
 - 🐙 **GitHub**: [@caterpillhub](https://github.com/caterpillhub)
 - 📧 **Email**: [kavinmsoff@gmail.com]
-- 🌐 **Portfolio**: [Your Live Site]
+- 🌐 **Portfolio**: [Check Out!](https://kavinrrahulms.vercel.app/)
 
 ## 🤝 Contributing
 
