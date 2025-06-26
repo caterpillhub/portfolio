@@ -127,21 +127,21 @@ export const ContactSection = () => {
                   whileHover={{ x: 10 }}
                 >
                   <div className="w-2 h-2 bg-portfolio-blue rounded-full"></div>
-                  <span className="text-portfolio-silver">email@example.com</span>
+                  <span className="text-portfolio-silver">kavinmsoff@gmail.com</span>
                 </motion.div>
                 <motion.div 
                   className="flex items-center space-x-4"
                   whileHover={{ x: 10 }}
                 >
                   <div className="w-2 h-2 bg-portfolio-blue rounded-full"></div>
-                  <span className="text-portfolio-silver">+1 (555) 123-4567</span>
+                  <span className="text-portfolio-silver">+91 9500145345</span>
                 </motion.div>
                 <motion.div 
                   className="flex items-center space-x-4"
                   whileHover={{ x: 10 }}
                 >
                   <div className="w-2 h-2 bg-portfolio-blue rounded-full"></div>
-                  <span className="text-portfolio-silver">linkedin.com/in/yourname</span>
+                  <span className="text-portfolio-silver">https://www.linkedin.com/in/kavin-rrahul-3710b4261/</span>
                 </motion.div>
               </div>
             </div>
