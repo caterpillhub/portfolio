@@ -43,7 +43,7 @@ export const Navigation = () => {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-portfolio-dark/80 backdrop-blur-md border-b border-portfolio-silver/20"
+      className="fixed top-0 left-0 right-0 z-50 bg-portfolio-dark/80 backdrop-blur-md"
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
@@ -51,7 +51,7 @@ export const Navigation = () => {
             className="text-xl font-bold text-portfolio-blue"
             whileHover={{ scale: 1.05 }}
           >
-            Portfolio
+            K
           </motion.div>
           
           <div className="hidden md:flex space-x-8">

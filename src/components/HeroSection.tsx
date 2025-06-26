@@ -1,6 +1,5 @@
 
 import { motion } from 'framer-motion'
-import { ChevronDown } from 'lucide-react'
 
 export const HeroSection = () => {
   return (
@@ -20,7 +19,7 @@ export const HeroSection = () => {
           >
             <span className="text-portfolio-silver">Hello, I'm</span>
             <br />
-            <span className="text-portfolio-blue">Your Name</span>
+            <span className="text-portfolio-blue">Kavin Rrahul</span>
           </motion.h1>
           
           <motion.p 
@@ -65,7 +64,6 @@ export const HeroSection = () => {
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            <ChevronDown className="w-8 h-8 text-portfolio-silver/60" />
           </motion.div>
         </motion.div>
       </div>

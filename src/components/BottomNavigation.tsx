@@ -45,10 +45,10 @@ export const BottomNavigation = () => {
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 1 }}
-      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50"
+      className="fixed bottom-6 left-[42%] transform -translate-x-1/2 z-50"
     >
-      <div className="bg-portfolio-dark/90 backdrop-blur-md border border-portfolio-silver/20 rounded-full px-4 py-3 shadow-2xl">
-        <div className="flex items-center space-x-1">
+      <div className="bg-portfolio-dark/90 backdrop-blur-md border border-portfolio-dark/90 rounded-full shadow-lg p-4 flex items-center justify-between w-full relative">
+        <div className="flex items-center justify-center space-x-1">
           {navItems.map((item) => {
             const Icon = item.icon
             const isActive = activeSection === item.id
@@ -87,8 +87,7 @@ export const BottomNavigation = () => {
             )
           })}
         </div>
-        
-        {/* Progress indicator */}
+        {/* Progress indicator 
         <div className="absolute -top-1 left-0 right-0 h-0.5 bg-portfolio-silver/10 rounded-full overflow-hidden">
           <motion.div
             className="h-full bg-portfolio-blue rounded-full"
@@ -101,7 +100,7 @@ export const BottomNavigation = () => {
             }}
             transition={{ duration: 0.3 }}
           />
-        </div>
+        </div> */}
       </div>
     </motion.div>
   )
